@@ -1,5 +1,6 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  target: "static",
   head: {
     title: 'three-portfolio',
     htmlAttrs: {
@@ -37,8 +38,7 @@ export default {
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
+  build: [
     "npm run generate"
-  },
-  target: {'static'} 
+  ]
 }
