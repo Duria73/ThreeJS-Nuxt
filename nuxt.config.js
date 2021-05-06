@@ -1,9 +1,6 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   target: "static",
-  router: {
-    base: '/<repository-name>/'
-  },
   head: {
     title: 'three-portfolio',
     htmlAttrs: {
@@ -33,7 +30,24 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
+    ['@nuxtjs/google-fonts', 
+      { 
+        families: {
+        Roboto: true,
+        'Exo+2': { 
+          ital: [700]
+        },
+        "Space+Mono": true,
+      Lato: [100, 300],
+      Raleway: {
+        wght: [100, 400],
+        ital: [100]
+    },
+  }
+}
+ ],
     '@nuxtjs/tailwindcss',
+     
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

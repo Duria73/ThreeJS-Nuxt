@@ -1,42 +1,45 @@
 <template>
-  <div id="app">
-    <div
-      id="main"
-      class="absolute text-white text-center max-w-2xl px-6"
-      style="top: 50%; transform: translate(-50%, -50%); left: 50%;"
-    >
-      <h1
-        id="name"
-        class="font-space-mono text-4xl uppercase tracking-wide opacity-0"
-        style="transform: translateY(30px)"
+  <div>
+    <canvas ref="canvas"></canvas>
+    <div id="app">
+      <div
+        id="main"
+        class="absolute text-white text-center max-w-2xl px-6"
+        style="top: 50%; transform: translate(-50%, -50%); left: 50%;"
       >
-        Alexander Duria
-      </h1>
-      <p
-        id="desc"
-        class="font-exo text-6xl opacity-0"
-        style="transform: translateY(30px)"
-      >
-        Full Stack Developer
-      </p>
-      <a
-        href="#"
-        id="view"
-        class="border px-6 py-2 rounded-lg text-sm font-space-mono uppercase mt-8 hover:bg-white hover:text-gray-800 inline-block opacity-0"
-        style="transform: translateY(30px)"
-      >
-        View My Work
-      </a>
-    </div>
-    <!-- Social -->
-    <div class="twitter social-icon">
-      <a href="#s" target="_blank"></a>
-      <i class="fa fa-twitter fa-lg"></i>
-    </div>
+        <h1
+          id="name"
+          class="font-space-mono text-4xl uppercase tracking-wide opacity-0"
+          style="transform: translateY(30px)"
+        >
+          Alexander Duria
+        </h1>
+        <p
+          id="desc"
+          class="font-exo text-6xl opacity-0"
+          style="transform: translateY(30px)"
+        >
+          Full Stack Developer
+        </p>
+        <a
+          href="#"
+          id="view"
+          class="border px-6 py-2 rounded-lg text-sm font-space-mono uppercase mt-8 hover:bg-white hover:text-gray-800 inline-block opacity-0"
+          style="transform: translateY(30px)"
+        >
+          View My Work
+        </a>
+      </div>
+      <!-- Social -->
+      <div class="twitter social-icon">
+        <a href="#s" target="_blank"></a>
+        <i class="fa fa-twitter fa-lg"></i>
+      </div>
 
-    <div class="youtube social-icon">
-      <a href="#" target="_blank"></a>
-      <i class="fa fa-youtube fa-lg"></i>
+      <div class="youtube social-icon">
+        <a href="#" target="_blank"></a>
+        <i class="fa fa-youtube fa-lg"></i>
+      </div>
     </div>
   </div>
 </template>
@@ -122,12 +125,13 @@ export default {
       1000
     );
 
-    const renderer = new WebGLRenderer();
+    const renderer = new WebGLRenderer({
+      canvas: this.$refs.canvas
+    });
     renderer.setSize(window.innerWidth, window.innerHeight);
     renderer.setPixelRatio(devicePixelRatio);
-    document.body.appendChild(renderer.domElement);
-    //Geometry
 
+    //Geometry
     const planeGeometry = new PlaneBufferGeometry(800, 800, 250, 250);
     const planeMaterial = new MeshPhongMaterial({
       // color: "gray",
@@ -371,7 +375,7 @@ export default {
         duration: 1,
         delay: 2,
         onComplete: () => {
-          window.location = "url";
+          this.$router.push("./portfolio");
         }
       });
     });
