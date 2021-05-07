@@ -315,7 +315,7 @@
               class="object-cover w-full h-80"
             />
             <div class="p-8">
-              <h3 class="font-bold text-2xl">Work Title</h3>
+              <h3 class="font-bold text-2xl">ThreeJS Portfolio</h3>
               <p class="pt-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Repellat sequi minima vero sunt perferendis.
@@ -327,9 +327,120 @@
               >
             </div>
           </div>
+          <div class="bg-white rounded-md shadow-lg portfolio-item">
+            <img
+              src="../assets/finance.jpg"
+              alt=""
+              class="object-cover w-full h-80"
+            />
+            <div class="p-8">
+              <h3 class="font-bold text-2xl">Stock Trading Simulator</h3>
+              <p class="pt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <a
+                href="#"
+                class="inline-block mt-4 px-6 py-2 bg-gradient-to-r from-cyan-400 to-emerald-400 rounded-md shadow-md text-sm font-bold text-black"
+                >View More</a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    <!--Contact Section -->
+    <section class="text-white-700 body-font relative">
+      <div class="max-w-6xl mx-auto text-center mb-10">
+        <h1 class="text-6xl font-bold text-gray-800 underline">Contact Me</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base mt-4">
+          Alex.duria@outlook.com
+        </p>
+      </div>
+      <div class="lg:w-1/2 md:w-2/3 mx-auto">
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 w-1/2">
+            <input
+              class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2"
+              placeholder="Name"
+              type="name"
+            />
+          </div>
+          <div class="p-2 w-1/2">
+            <input
+              class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2"
+              placeholder="Email"
+              type="email"
+            />
+          </div>
+          <div class="p-2 w-full">
+            <input
+              class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-indigo-500 text-base px-4 py-2"
+              placeholder="Enter Message"
+              type="text"
+            />
+          </div>
+          <div class="p2 w-full mt-4">
+            <button
+              class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer text-gray-100 bg-gray-800 h-50">
+      <div class="max-w-3xl mx-auto mt-24 py-6 sm:mt-12">
+        <div class="flex justify-center mt-6">
+          <div class="bg-gray rounded-md">
+            <div class="flex flex-wrap justify-between md:flex-row">
+              <a href="" class="m-6">
+                <img src="../assets/linkedin.png" alt="LinkedIn" />
+              </a>
+              <a href="" class="m-6">
+                <img src="../assets/github.png" alt="GitHub" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <hr class="h-px mt-6 bg-gray-700 border-none mt-4" />
+
+        <div
+          class="flex flex-col items-center justify-between mt-4 md:flex-row"
+        >
+          <div>
+            <a
+              href="#"
+              class="text-xl font-bold text-gray-100 hover:text-gray-400"
+              >Alexander Duria 2021</a
+            >
+          </div>
+
+          <div class="flex mt-4 md:m-0">
+            <div class="-mx-4">
+              <a
+                href="#"
+                class="px-4 text-sm text-gray-100 font-medium hover:text-gray-400"
+                >About</a
+              >
+              <a
+                href="#"
+                class="px-4 text-sm text-gray-100 font-medium hover:text-gray-400"
+                >Portfolio</a
+              >
+              <a
+                href="#"
+                class="px-4 text-sm text-gray-100 font-medium hover:text-gray-400"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -386,7 +497,11 @@ export default {
 
 .portfolio-item:hover {
   transform: scale(1.01);
-  transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.3s;
+}
+
+.footer {
+  background: #1b242f;
 }
 
 @keyframes slideInFromLeft {
