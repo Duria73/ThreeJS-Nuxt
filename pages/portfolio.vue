@@ -1,7 +1,7 @@
 <template>
   <!-- content -->
-  <div>
-    <nav class="bg-white-800">
+  <div class="overflow-hidden">
+    <nav class="bg-white-800 navBar">
       <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div class="relative flex items-center justify-between h-20">
           <div
@@ -97,12 +97,6 @@
                   class="text-black-400 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-medium font-medium"
                   >Projects</a
                 >
-
-                <a
-                  href="#"
-                  class="text-black-400 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-medium font-medium"
-                  >Blog</a
-                >
                 <a
                   href="#"
                   class="text-black-400 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-medium font-medium"
@@ -110,6 +104,30 @@
                 >
               </div>
             </div>
+          </div>
+          <div>
+            <a
+              href="#"
+              class="w-full flex items-center justify-center px-2 py-2 border border-transparent rounded-md text-base font-medium text-black nav-logo"
+            >
+              <img class="w-12" src="../assets/linkedin.svg" alt="LinkedIn" />
+            </a>
+          </div>
+          <div>
+            <a
+              href="#"
+              class="w-full flex items-center justify-center px-2 py-2 border border-transparent rounded-md text-base font-medium text-black nav-logo"
+            >
+              <img class="w-12" src="../assets/github.svg" alt="GitHub" />
+            </a>
+          </div>
+          <div>
+            <a
+              href="#"
+              class="w-full flex items-center justify-center px-2 py-2 border border-transparent rounded-md text-base font-medium text-black nav-logo"
+            >
+              <img class="w-12" src="../assets/resume.png" alt="Resume" />
+            </a>
           </div>
         </div>
       </div>
@@ -134,7 +152,7 @@
           <a
             href="#"
             class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-            >Blog</a
+            >Resume</a
           >
 
           <a
@@ -146,93 +164,137 @@
       </div>
     </nav>
 
-    <!--overflow-hidden absolute top-56 right-0 left-0 -->
-    <!--About Section -->
     <div
-      class="py-12 flex justify-items-center align-items-center bg-black landing sm:h-auto"
+      class="bars relative flex items-center justify-center bg-gray-900 overflow-y-hidden overflow-x-hidden"
     >
+      <!-- grid background -->
       <div
-        class="lg:my-32 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-white bg-opacity-100 border-2 rounded-md py-6 lg:h-3/5"
+        class="grid-background absolute inset-0 p-2 grid grid-cols-12 gap-2 transform -skew-y-12 scale-125 "
       >
-        <div class="lg:text-center border-b-2 border-gray-400 m-auto">
-          <p
-            class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
-          >
-            About
-          </p>
-          <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto mb-6">
-            I'm a Full-Stack Developer currently located in Toronto, CA. I have
-            serious passion for UI effects, animations and creating intuitive,
-            dynamic user experiences. Let's make something special.
-          </p>
-        </div>
+        <!-- row 1 -->
+        <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-5 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-1 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-4 bg-gray-800 rounded animate-pulse"></div>
 
-        <div class="mt-10">
-          <div class="lg:text-center mb-6">
-            <h2
-              class="text-base text-indigo-600 font-semibold tracking-wide uppercase"
+        <!-- row 2 -->
+        <div class="col-span-5 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-3 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
+
+        <!-- row 3 -->
+        <div class="col-span-4 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-7 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-1 bg-gray-800 rounded animate-pulse"></div>
+
+        <!-- row 4 -->
+        <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-4 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-6 bg-gray-800 rounded animate-pulse"></div>
+
+        <!-- row 5 -->
+        <div class="col-span-5 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-5 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
+
+        <!-- row 6 -->
+        <div class="col-span-3 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-5 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-4 bg-gray-800 rounded animate-pulse"></div>
+      </div>
+
+      <!--About Section -->
+      <div
+        class="py-12 relative flex justify-items-center align-items-center landing sm:h-auto"
+      >
+        <div
+          class="innerLanding lg:my-32 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-white bg-opacity-100 border-2 rounded-md py-6 lg:h-3/5 mx-4 intro-bg"
+        >
+          <div class="lg:text-center border-b-2 border-gray-400 m-auto">
+            <p
+              class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl heading"
             >
-              Languages, Frameworks & Libraries
-            </h2>
-          </div>
-          <div
-            class="flex flex-wrap overflow-hidden xl:-mx-1 rounded-md justify-content-center align-items-center text-white md:grid sm:grid lg:grid-cols-10 sm:grid-cols-4 md:grid-cols-4 md:gap-x-8 md:gap-y-10"
-          >
-            <img
-              class="flex h-16 w-auto m-4"
-              src="../assets/html5.svg"
-              alt="HTML5"
-            />
-            <img
-              class="flex h-16 w-auto m-4"
-              src="../assets/css3.svg"
-              alt="CSS3"
-            />
-            <img
-              class="flex h-16 w-auto m-4"
-              src="../assets/js.png"
-              alt="JAVASCRIPT"
-            />
-            <img
-              class="flex h-16 w-auto m-4"
-              src="../assets/python.svg"
-              alt="PYTHON"
-            />
-            <img
-              class="flex h-16 w-auto m-4"
-              src="../assets/react.png"
-              alt="REACT"
-            />
-            <img
-              class="flex h-16 w-auto m-4"
-              src="../assets/nodejs.svg"
-              alt="NODEJS"
-            />
-            <img
-              class="flex h-16 w-auto m-4"
-              src="../assets/mongo.png"
-              alt="MONGODB"
-            />
+              About
+            </p>
 
-            <img
-              class="flex h-16 w-auto m-4"
-              src="../assets/sass.svg"
-              alt="SASS"
-            />
-            <img
-              class="flex h-16 w-auto m-4"
-              src="../assets/sqlite.svg"
-              alt="SQLITE"
-            />
-            <img
-              class="flex h-16 w-auto m-4"
-              src="../assets/gatsby.png"
-              alt="GATSBYJS"
-            />
+            <p
+              class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto mb-6 description"
+            >
+              I'm a Full-Stack Developer currently located in Toronto, CA. I
+              have serious passion for UI effects, animations and creating
+              intuitive, dynamic user experiences. Let's make something special.
+            </p>
+          </div>
+
+          <div class="mt-10">
+            <div class="lg:text-center mb-6">
+              <h2
+                class="text-base text-indigo-600 font-semibold tracking-wide uppercase languages"
+              >
+                Languages, Frameworks & Libraries
+              </h2>
+            </div>
+            <div
+              class="flex flex-wrap overflow-hidden xl:-mx-1 rounded-md justify-content-center align-items-center text-white md:grid sm:grid lg:grid-cols-10 sm:grid-cols-4 md:grid-cols-4 md:gap-x-8 md:gap-y-10"
+            >
+              <img
+                class="flex h-16 w-auto m-4 lang-icon up"
+                src="../assets/html5.svg"
+                alt="HTML5"
+              />
+              <img
+                class="flex h-16 w-auto m-4 lang-icon down"
+                src="../assets/css3.svg"
+                alt="CSS3"
+              />
+              <img
+                class="flex h-16 w-auto m-4 lang-icon up"
+                src="../assets/js.png"
+                alt="JAVASCRIPT"
+              />
+              <img
+                class="flex h-16 w-auto m-4 lang-icon down"
+                src="../assets/python.svg"
+                alt="PYTHON"
+              />
+              <img
+                class="flex h-16 w-auto m-4 lang-icon react up"
+                src="../assets/react.png"
+                alt="REACT"
+              />
+              <img
+                class="flex h-16 w-auto m-4 lang-icon down"
+                src="../assets/nodejs.svg"
+                alt="NODEJS"
+              />
+              <img
+                class="flex h-16 w-auto m-4 lang-icon up"
+                src="../assets/mongo.png"
+                alt="MONGODB"
+              />
+
+              <img
+                class="flex h-16 w-auto m-4 lang-icon down"
+                src="../assets/sass.svg"
+                alt="SASS"
+              />
+              <img
+                class="flex h-16 w-auto m-4 lang-icon up"
+                src="../assets/sqlite.svg"
+                alt="SQLITE"
+              />
+              <img
+                class="flex h-16 w-auto m-4 lang-icon down"
+                src="../assets/gatsby.png"
+                alt="GATSBYJS"
+              />
+            </div>
           </div>
         </div>
       </div>
     </div>
+
     <!--Projects -->
     <div
       class="md:flex py-12 flex justify-items-center align-items-center bg-white-700"
@@ -242,7 +304,9 @@
           <h1 class="text-6xl font-bold text-gray-800 underline">Portfolio</h1>
         </div>
 
-        <div class="mt-16 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6">
+        <div
+          class="mt-16 mx-4 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6"
+        >
           <div
             class="bg-white rounded-md shadow-xl lg:col-span-1 portfolio-item"
           >
@@ -349,8 +413,8 @@
       </div>
     </div>
     <!--Contact Section -->
-    <section class="text-white-700 body-font relative">
-      <div class="max-w-6xl mx-auto text-center mb-10">
+    <section class="text-white-700 body-font relative contact">
+      <div class="max-w-6xl mx-auto text-center mt-20 mb-10">
         <h1 class="text-6xl font-bold text-gray-800 underline">Contact Me</h1>
         <p class="lg:w-2/3 mx-auto leading-relaxed text-base mt-4">
           Alex.duria@outlook.com
@@ -397,10 +461,13 @@
           <div class="bg-gray rounded-md">
             <div class="flex flex-wrap justify-between md:flex-row">
               <a href="" class="m-6">
-                <img src="../assets/linkedin.png" alt="LinkedIn" />
+                <img class="w-12" src="../assets/linkedin.svg" alt="LinkedIn" />
               </a>
               <a href="" class="m-6">
-                <img src="../assets/github.png" alt="GitHub" />
+                <img class="w-12" src="../assets/github.svg" alt="GitHub" />
+              </a>
+              <a href="" class="m-6">
+                <img class="w-12" src="../assets/resume.png" alt="Resume" />
               </a>
             </div>
           </div>
@@ -445,8 +512,29 @@
 </template>
 
 <script>
+import gsap from "gsap";
 export default {
   mounted() {
+    gsap.from("nav", { duration: 1, y: -80, delay: 1 });
+    //Animations headers landing-page
+    gsap.from(".innerLanding", { duration: 2, y: 1000 });
+    gsap.from(".heading", { duration: 1.5, x: -400 });
+    gsap.fromTo(".heading", { opacity: 0 }, { opacity: 1, duration: 2 });
+    gsap.from(".description", { duration: 1.5, x: -500 });
+    gsap.fromTo(".description", { opacity: 0 }, { opacity: 1, duration: 2 });
+
+    gsap.from(".languages", { duration: 1, x: -400, delay: 1 });
+    gsap.fromTo(
+      ".languages",
+      { opacity: 0 },
+      { opacity: 1, duration: 2, delay: 1 }
+    );
+    //Icon SVGs
+    gsap.from(".up", { duration: 1, y: -200, delay: 1 });
+    gsap.fromTo(".up", { opacity: 0 }, { opacity: 1, duration: 3, delay: 1 });
+    gsap.from(".down", { duration: 1, y: 200, delay: 1 });
+    gsap.fromTo(".down", { opacity: 0 }, { opacity: 1, duration: 3, delay: 1 });
+
     const mobileButton = document.querySelector(".hamburger");
     const mobileMenu = document.getElementById("mobile-menu");
 
@@ -465,7 +553,7 @@ export default {
       const delay = getRandomInt(0, 5);
 
       // calculate random number for duration
-      const duration = getRandomInt(3, 6);
+      const duration = getRandomInt(3, 5);
 
       // set both
       item.style.animationDelay = `${delay}s`;
@@ -485,8 +573,54 @@ export default {
 * {
 }
 
+nav {
+  z-index: 10;
+}
+
+nav.scrolled {
+  @apply shadow-2xl;
+  border-bottom: 0px;
+}
+
+.nav-logo:hover {
+  transform: scale(1.01);
+  transition: ease-in 0.1s;
+}
+
 .landing {
   height: calc(100vh - 80px) !important;
+}
+
+.lang-icon:hover {
+  transform: scale(1.1);
+  transition: ease-in 0.1s;
+  border: 1px solid black;
+  border-radius: 5px;
+
+  padding: 5px;
+}
+
+.react {
+  -webkit-animation: spin 12s linear infinite;
+  -moz-animation: spin 12s linear infinite;
+  animation: spin 12s linear infinite;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
 
 @media only screen and (max-width: 415px) {
@@ -502,6 +636,10 @@ export default {
 
 .footer {
   background: #1b242f;
+}
+
+.contact {
+  height: calc(100vh - 293px) !important;
 }
 
 @keyframes slideInFromLeft {
