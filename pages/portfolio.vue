@@ -5,12 +5,31 @@
       <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div class="relative flex items-center justify-between h-20">
           <div
-            class="hamburger absolute inset-y-0 left-0 flex items-center sm:hidden"
+            class="
+              hamburger
+              absolute
+              inset-y-0
+              left-0
+              flex
+              items-center
+              sm:hidden
+            "
           >
             <!-- Mobile menu button-->
             <button
               type="button"
-              class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+              class="
+                inline-flex
+                items-center
+                justify-center
+                p-2
+                rounded-md
+                text-gray-400
+                hover:text-white
+                hover:bg-gray-700
+                focus:outline-none
+                focus:ring-2 focus:ring-inset focus:ring-white
+              "
               aria-controls="mobile-menu"
               aria-expanded="false"
             >
@@ -62,7 +81,13 @@
             </button>
           </div>
           <div
-            class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start"
+            class="
+              flex-1 flex
+              items-center
+              justify-center
+              sm:items-stretch
+              sm:justify-start
+            "
           >
             <div class="flex-shrink-0 flex items-center">
               <img
@@ -81,25 +106,61 @@
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                 <a
                   href="/"
-                  class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
+                  class="
+                    bg-gray-900
+                    text-white
+                    px-3
+                    py-2
+                    rounded-md
+                    text-sm
+                    font-medium
+                  "
                   aria-current="page"
                   >Home</a
                 >
 
                 <a
                   href="#about"
-                  class="text-black-400 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-medium font-medium"
+                  class="
+                    text-black-400
+                    hover:bg-gray-700
+                    hover:text-white
+                    px-3
+                    py-2
+                    rounded-md
+                    text-medium
+                    font-medium
+                  "
                   >About</a
                 >
 
                 <a
                   href="#projects"
-                  class="text-black-400 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-medium font-medium"
+                  class="
+                    text-black-400
+                    hover:bg-gray-700
+                    hover:text-white
+                    px-3
+                    py-2
+                    rounded-md
+                    text-medium
+                    font-medium
+                    top
+                  "
                   >Projects</a
                 >
                 <a
                   href="#contact"
-                  class="text-black-400 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-medium font-medium"
+                  class="
+                    text-black-400
+                    hover:bg-gray-700
+                    hover:text-white
+                    px-3
+                    py-2
+                    rounded-md
+                    text-medium
+                    font-medium
+                  "
                   >Contact</a
                 >
               </div>
@@ -108,7 +169,20 @@
           <div class="nav-logos">
             <a
               href="https://www.linkedin.com/in/alexander-duria-b4a20376/"
-              class="w-full flex items-center justify-center px-2 py-2 border border-transparent rounded-md text-base font-medium text-black nav-logo"
+              class="
+                w-full
+                flex
+                items-center
+                justify-center
+                px-2
+                py-2
+                border border-transparent
+                rounded-md
+                text-base
+                font-medium
+                text-black
+                nav-logo
+              "
             >
               <img class="w-12" src="../assets/linkedin.svg" alt="LinkedIn" />
             </a>
@@ -116,7 +190,20 @@
           <div class="nav-logos">
             <a
               href="https://github.com/Duria73"
-              class="w-full flex items-center justify-center px-2 py-2 border border-transparent rounded-md text-base font-medium text-black nav-logo"
+              class="
+                w-full
+                flex
+                items-center
+                justify-center
+                px-2
+                py-2
+                border border-transparent
+                rounded-md
+                text-base
+                font-medium
+                text-black
+                nav-logo
+              "
             >
               <img class="w-12" src="../assets/github.svg" alt="GitHub" />
             </a>
@@ -124,7 +211,20 @@
           <div class="nav-logos">
             <a
               href="#"
-              class="w-full flex items-center justify-center px-2 py-2 border border-transparent rounded-md text-base font-medium text-black nav-logo"
+              class="
+                w-full
+                flex
+                items-center
+                justify-center
+                px-2
+                py-2
+                border border-transparent
+                rounded-md
+                text-base
+                font-medium
+                text-black
+                nav-logo
+              "
             >
               <img class="w-12" src="../assets/resume.png" alt="Resume" />
             </a>
@@ -138,36 +238,95 @@
           <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
           <a
             href="#"
-            class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+            class="
+              bg-gray-900
+              text-white
+              block
+              px-3
+              py-2
+              rounded-md
+              text-base
+              font-medium
+            "
             aria-current="page"
             >About</a
           >
 
           <a
             href="#projects"
-            class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            class="
+              text-gray-300
+              hover:bg-gray-700
+              hover:text-white
+              block
+              px-3
+              py-2
+              rounded-md
+              text-base
+              font-medium
+            "
             >Projects</a
           >
 
           <a
             href="#"
-            class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            class="
+              text-gray-300
+              hover:bg-gray-700
+              hover:text-white
+              block
+              px-3
+              py-2
+              rounded-md
+              text-base
+              font-medium
+            "
             >Resume</a
           >
           <a
             href="https://github.com/Duria73"
-            class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            class="
+              text-gray-300
+              hover:bg-gray-700
+              hover:text-white
+              block
+              px-3
+              py-2
+              rounded-md
+              text-base
+              font-medium
+            "
             >GitHub</a
           >
           <a
             href="https://www.linkedin.com/in/alexander-duria-b4a20376/"
-            class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            class="
+              text-gray-300
+              hover:bg-gray-700
+              hover:text-white
+              block
+              px-3
+              py-2
+              rounded-md
+              text-base
+              font-medium
+            "
             >LinkedIn</a
           >
 
           <a
             href="#contact"
-            class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            class="
+              text-gray-300
+              hover:bg-gray-700
+              hover:text-white
+              block
+              px-3
+              py-2
+              rounded-md
+              text-base
+              font-medium
+            "
             >Contact</a
           >
         </div>
@@ -178,7 +337,19 @@
     <div class="bars relative flex items-center justify-center">
       <!-- grid background -->
       <div
-        class="grid-background absolute inset-0 p-2 grid grid-cols-12 gap-2 transform -skew-y-12 scale-125 bg-gray-900 outer-landing"
+        class="
+          grid-background
+          absolute
+          inset-0
+          p-2
+          grid grid-cols-12
+          gap-2
+          transform
+          -skew-y-12
+          scale-125
+          bg-gray-900
+          outer-landing
+        "
       >
         <!-- row 1 -->
         <div
@@ -232,22 +403,60 @@
       </div>
 
       <!--About Section -->
-      <div
-        class="py-12 relative flex justify-items-center align-items-center landing sm:h-auto"
+      <section
+        class="
+          py-12
+          relative
+          flex
+          justify-items-center
+          align-items-center
+          landing
+          sm:h-auto
+        "
         id="about"
       >
         <div
-          class="innerLanding lg:my-32 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-white bg-opacity-100 border-2 rounded-md py-6 lg:h-3/5 mx-4 intro-bg"
+          class="
+            innerLanding
+            lg:my-32
+            max-w-7xl
+            mx-auto
+            px-4
+            sm:px-6
+            lg:px-8
+            bg-white bg-opacity-100
+            border-2
+            rounded-md
+            py-6
+            lg:h-3/5
+            mx-4
+            intro-bg
+          "
         >
           <div class="lg:text-center border-b-2 border-gray-400 m-auto">
             <p
-              class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl heading"
+              class="
+                mt-2
+                text-3xl
+                leading-8
+                font-extrabold
+                tracking-tight
+                text-gray-900
+                sm:text-4xl
+                heading
+              "
             >
               About
             </p>
-
             <p
-              class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto mb-6 description"
+              class="
+                mt-4
+                max-w-2xl
+                text-xl text-gray-500
+                lg:mx-auto
+                mb-6
+                description
+              "
             >
               I'm a Full-Stack Developer currently located in Toronto, CA. I
               have serious passion for UI effects, animations and creating
@@ -258,13 +467,34 @@
           <div class="mt-10">
             <div class="lg:text-center mb-6">
               <h2
-                class="text-base text-indigo-600 font-semibold tracking-wide uppercase languages"
+                class="
+                  text-base text-indigo-600
+                  font-semibold
+                  tracking-wide
+                  uppercase
+                  languages
+                "
               >
                 Languages, Frameworks & Libraries
               </h2>
             </div>
             <div
-              class="flex flex-wrap overflow-hidden xl:-mx-1 rounded-md justify-content-center align-items-center text-white md:grid sm:grid lg:grid-cols-10 sm:grid-cols-4 md:grid-cols-4 md:gap-x-8 md:gap-y-10 lg:mt-12"
+              class="
+                flex flex-wrap
+                overflow-hidden
+                xl:-mx-1
+                rounded-md
+                justify-content-center
+                align-items-center
+                text-white
+                md:grid
+                sm:grid
+                lg:grid-cols-10
+                sm:grid-cols-4
+                md:grid-cols-4
+                md:gap-x-8 md:gap-y-10
+                lg:mt-12
+              "
             >
               <img
                 class="flex h-16 w-auto m-4 lang-icon up"
@@ -277,72 +507,110 @@
                 alt="CSS3"
               />
               <img
-                class="flex h-16 w-auto m-4 lang-icon up"
+                class="flex h-16 w-auto my-4 mx-2 lang-icon up"
                 src="../assets/js.png"
                 alt="JAVASCRIPT"
               />
               <img
-                class="flex h-16 w-auto m-4 lang-icon down"
+                class="flex h-16 w-auto my-4 mx-2 lang-icon down"
+                src="../assets/typescript.png"
+                alt="TYPESCRIPT"
+              />
+              <img
+                class="flex h-16 w-auto m-4 lang-icon up"
                 src="../assets/python.svg"
                 alt="PYTHON"
               />
               <img
-                class="flex h-16 w-auto m-4 lang-icon react up"
+                class="flex h-16 w-auto m-4 lang-icon react down"
                 src="../assets/react.png"
                 alt="REACT"
               />
               <img
-                class="flex h-16 w-auto m-4 lang-icon down"
+                class="flex h-16 w-auto m-4 lang-icon up"
                 src="../assets/nodejs.svg"
                 alt="NODEJS"
               />
               <img
-                class="flex h-16 w-auto m-4 lang-icon up"
+                class="flex h-16 w-auto m-4 lang-icon down"
                 src="../assets/mongo.png"
                 alt="MONGODB"
               />
 
               <img
-                class="flex h-16 w-auto m-4 lang-icon down"
+                class="flex h-16 w-auto m-4 lang-icon up"
                 src="../assets/sass.svg"
                 alt="SASS"
               />
               <img
-                class="flex h-16 w-auto m-4 lang-icon up"
+                class="flex h-16 w-auto m-4 lang-icon down"
                 src="../assets/sqlite.svg"
                 alt="SQLITE"
               />
-              <img
+              <!-- <img
                 class="flex h-16 w-auto m-4 lang-icon down"
                 src="../assets/gatsby.png"
                 alt="GATSBYJS"
-              />
+              /> -->
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
 
     <!--Projects -->
-    <div
-      class="md:flex py-12 flex justify-items-center align-items-center bg-white-700 mt-28 scroll-container"
+    <section
+      class="
+        md:flex
+        py-12
+        flex
+        justify-items-center
+        align-items-center
+        bg-white-700
+        mt-28
+        scroll-container
+      "
       id="projects"
     >
       <div class="max-w-6xl mx-auto">
         <div
-          class="text-right mr-6 project-title  scroll-element js-scroll slide-left"
+          class="
+            text-right
+            mr-6
+            project-title
+            scroll-element
+            js-scroll
+            slide-left
+          "
         >
-          <h1 class="text-6xl font-bold text-gray-800 underline">
+          <h1 class="text-6xl font-bold text-gray-800 underline pt-10">
             Projects
           </h1>
         </div>
 
         <div
-          class="mt-16 mx-4 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6"
+          class="
+            mt-16
+            mx-4
+            grid grid-cols-1
+            md:grid-cols-1
+            lg:grid-cols-3
+            gap-6
+          "
         >
           <!--Project 1 -->
           <div
-            class="bg-white rounded-md shadow-xl lg:col-span-1 portfolio-item relative scroll-element js-scroll slide-left"
+            class="
+              bg-white
+              rounded-md
+              shadow-xl
+              lg:col-span-1
+              portfolio-item
+              relative
+              scroll-element
+              js-scroll
+              slide-left
+            "
           >
             <img
               src="../assets/chatapp.jpg"
@@ -384,12 +652,40 @@
               <div class="flex flex-row justify-between">
                 <a
                   href="#"
-                  class="inline-block m-4 px-6 py-2 bg-gradient-to-r from-cyan-400 to-emerald-400 rounded-md shadow-md text-sm font-bold text-black link-button"
+                  class="
+                    inline-block
+                    m-4
+                    px-6
+                    py-2
+                    bg-gradient-to-r
+                    from-cyan-400
+                    to-emerald-400
+                    rounded-md
+                    shadow-md
+                    text-sm
+                    font-bold
+                    text-black
+                    link-button
+                  "
                   >View Repo</a
                 >
                 <a
                   href="#"
-                  class="inline-block m-4 px-6 py-2 bg-gradient-to-r from-cyan-400 to-emerald-400 rounded-md shadow-md text-sm font-bold text-black link-button"
+                  class="
+                    inline-block
+                    m-4
+                    px-6
+                    py-2
+                    bg-gradient-to-r
+                    from-cyan-400
+                    to-emerald-400
+                    rounded-md
+                    shadow-md
+                    text-sm
+                    font-bold
+                    text-black
+                    link-button
+                  "
                   >Live Site</a
                 >
               </div>
@@ -397,7 +693,17 @@
           </div>
           <!--Project 2 -->
           <div
-            class="bg-white rounded-md shadow-xl lg:col-span-1 portfolio-item relative scroll-element js-scroll fade-in-bottom"
+            class="
+              bg-white
+              rounded-md
+              shadow-xl
+              lg:col-span-1
+              portfolio-item
+              relative
+              scroll-element
+              js-scroll
+              fade-in-bottom
+            "
           >
             <img
               src="../assets/mashup.jpg"
@@ -439,12 +745,40 @@
               <div class="flex flex-row justify-between">
                 <a
                   href="#"
-                  class="inline-block m-4 px-6 py-2 bg-gradient-to-r from-cyan-400 to-emerald-400 rounded-md shadow-md text-sm font-bold text-black link-button"
+                  class="
+                    inline-block
+                    m-4
+                    px-6
+                    py-2
+                    bg-gradient-to-r
+                    from-cyan-400
+                    to-emerald-400
+                    rounded-md
+                    shadow-md
+                    text-sm
+                    font-bold
+                    text-black
+                    link-button
+                  "
                   >View Repo</a
                 >
                 <a
                   href="#"
-                  class="inline-block m-4 px-6 py-2 bg-gradient-to-r from-cyan-400 to-emerald-400 rounded-md shadow-md text-sm font-bold text-black link-button"
+                  class="
+                    inline-block
+                    m-4
+                    px-6
+                    py-2
+                    bg-gradient-to-r
+                    from-cyan-400
+                    to-emerald-400
+                    rounded-md
+                    shadow-md
+                    text-sm
+                    font-bold
+                    text-black
+                    link-button
+                  "
                   >Live Site</a
                 >
               </div>
@@ -452,7 +786,17 @@
           </div>
           <!--Project 3 -->
           <div
-            class="bg-white rounded-md shadow-xl lg:col-span-1 portfolio-item relative scroll-element js-scroll slide-right"
+            class="
+              bg-white
+              rounded-md
+              shadow-xl
+              lg:col-span-1
+              portfolio-item
+              relative
+              scroll-element
+              js-scroll
+              slide-right
+            "
           >
             <img
               src="../assets/mashup.jpg"
@@ -494,12 +838,40 @@
               <div class="flex flex-row justify-between">
                 <a
                   href="#"
-                  class="inline-block m-4 px-6 py-2 bg-gradient-to-r from-cyan-400 to-emerald-400 rounded-md shadow-md text-sm font-bold text-black link-button"
+                  class="
+                    inline-block
+                    m-4
+                    px-6
+                    py-2
+                    bg-gradient-to-r
+                    from-cyan-400
+                    to-emerald-400
+                    rounded-md
+                    shadow-md
+                    text-sm
+                    font-bold
+                    text-black
+                    link-button
+                  "
                   >View Repo</a
                 >
                 <a
                   href="#"
-                  class="inline-block m-4 px-6 py-2 bg-gradient-to-r from-cyan-400 to-emerald-400 rounded-md shadow-md text-sm font-bold text-black link-button"
+                  class="
+                    inline-block
+                    m-4
+                    px-6
+                    py-2
+                    bg-gradient-to-r
+                    from-cyan-400
+                    to-emerald-400
+                    rounded-md
+                    shadow-md
+                    text-sm
+                    font-bold
+                    text-black
+                    link-button
+                  "
                   >Live Site</a
                 >
               </div>
@@ -508,7 +880,16 @@
 
           <!--Project 4 -->
           <div
-            class="bg-white rounded-md shadow-lg lg:col-span-2 portfolio-item scroll-element js-scroll slide-left"
+            class="
+              bg-white
+              rounded-md
+              shadow-lg
+              lg:col-span-2
+              portfolio-item
+              scroll-element
+              js-scroll
+              slide-left
+            "
           >
             <img
               src="images/work4.jpg"
@@ -549,12 +930,40 @@
               <div class="flex flex-row justify-between">
                 <a
                   href="#"
-                  class="inline-block m-4 px-6 py-2 bg-gradient-to-r from-cyan-400 to-emerald-400 rounded-md shadow-md text-sm font-bold text-black link-button"
+                  class="
+                    inline-block
+                    m-4
+                    px-6
+                    py-2
+                    bg-gradient-to-r
+                    from-cyan-400
+                    to-emerald-400
+                    rounded-md
+                    shadow-md
+                    text-sm
+                    font-bold
+                    text-black
+                    link-button
+                  "
                   >View Repo</a
                 >
                 <a
                   href="#"
-                  class="inline-block m-4 px-6 py-2 bg-gradient-to-r from-cyan-400 to-emerald-400 rounded-md shadow-md text-sm font-bold text-black link-button"
+                  class="
+                    inline-block
+                    m-4
+                    px-6
+                    py-2
+                    bg-gradient-to-r
+                    from-cyan-400
+                    to-emerald-400
+                    rounded-md
+                    shadow-md
+                    text-sm
+                    font-bold
+                    text-black
+                    link-button
+                  "
                   >Live Site</a
                 >
               </div>
@@ -562,7 +971,15 @@
           </div>
           <!--Project 5 -->
           <div
-            class="bg-white rounded-md shadow-lg portfolio-item scroll-element js-scroll fade-in-bottom"
+            class="
+              bg-white
+              rounded-md
+              shadow-lg
+              portfolio-item
+              scroll-element
+              js-scroll
+              fade-in-bottom
+            "
           >
             <img
               src="../assets/finance.jpg"
@@ -604,12 +1021,40 @@
               <div class="flex flex-row justify-between">
                 <a
                   href="#"
-                  class="inline-block m-4 px-6 py-2 bg-gradient-to-r from-cyan-400 to-emerald-400 rounded-md shadow-md text-sm font-bold text-black link-button"
+                  class="
+                    inline-block
+                    m-4
+                    px-6
+                    py-2
+                    bg-gradient-to-r
+                    from-cyan-400
+                    to-emerald-400
+                    rounded-md
+                    shadow-md
+                    text-sm
+                    font-bold
+                    text-black
+                    link-button
+                  "
                   >View Repo</a
                 >
                 <a
                   href="#"
-                  class="inline-block m-4 px-6 py-2 bg-gradient-to-r from-cyan-400 to-emerald-400 rounded-md shadow-md text-sm font-bold text-black link-button"
+                  class="
+                    inline-block
+                    m-4
+                    px-6
+                    py-2
+                    bg-gradient-to-r
+                    from-cyan-400
+                    to-emerald-400
+                    rounded-md
+                    shadow-md
+                    text-sm
+                    font-bold
+                    text-black
+                    link-button
+                  "
                   >Live Site</a
                 >
               </div>
@@ -617,11 +1062,19 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!--Contact Section -->
     <section
       id="contact"
-      class="text-white-700 body-font flex contact croll-element js-scroll fade-in-bottom"
+      class="
+        text-white-700
+        body-font
+        flex
+        contact
+        croll-element
+        js-scroll
+        fade-in-bottom
+      "
     >
       <div class="m-auto">
         <div class="max-w-6xl mx-auto text-center mt-10 mb-10">
@@ -634,28 +1087,71 @@
           <div class="flex flex-wrap -m-2">
             <div class="p-2 w-1/2">
               <input
-                class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2"
+                class="
+                  w-full
+                  bg-gray-100
+                  rounded
+                  border border-gray-400
+                  focus:outline-none
+                  focus:border-indigo-500
+                  text-base
+                  px-4
+                  py-2
+                "
                 placeholder="Name"
                 type="name"
               />
             </div>
             <div class="p-2 w-1/2">
               <input
-                class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2"
+                class="
+                  w-full
+                  bg-gray-100
+                  rounded
+                  border border-gray-400
+                  focus:outline-none
+                  focus:border-indigo-500
+                  text-base
+                  px-4
+                  py-2
+                "
                 placeholder="Email"
                 type="email"
               />
             </div>
             <div class="p-2 w-full">
               <input
-                class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-indigo-500 text-base px-4 py-2"
+                class="
+                  w-full
+                  bg-gray-100
+                  rounded
+                  border border-gray-400
+                  focus:outline-none
+                  h-48
+                  focus:border-indigo-500
+                  text-base
+                  px-4
+                  py-2
+                "
                 placeholder="Enter Message"
                 type="text"
               />
             </div>
             <div class="p2 w-full mt-4">
               <button
-                class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                class="
+                  flex
+                  mx-auto
+                  text-white
+                  bg-indigo-500
+                  border-0
+                  py-2
+                  px-8
+                  focus:outline-none
+                  hover:bg-indigo-600
+                  rounded
+                  text-lg
+                "
               >
                 Submit
               </button>
@@ -704,17 +1200,32 @@
             <div class="-mx-4">
               <a
                 href="#about"
-                class="px-4 text-sm text-gray-100 font-medium hover:text-gray-400"
+                class="
+                  px-4
+                  text-sm text-gray-100
+                  font-medium
+                  hover:text-gray-400
+                "
                 >About</a
               >
               <a
                 href="#projects"
-                class="px-4 text-sm text-gray-100 font-medium hover:text-gray-400"
+                class="
+                  px-4
+                  text-sm text-gray-100
+                  font-medium
+                  hover:text-gray-400
+                "
                 >Projects</a
               >
               <a
                 href="#contact"
-                class="px-4 text-sm text-gray-100 font-medium hover:text-gray-400"
+                class="
+                  px-4
+                  text-sm text-gray-100
+                  font-medium
+                  hover:text-gray-400
+                "
                 >Contact</a
               >
             </div>
@@ -767,7 +1278,7 @@ export default {
       );
     };
 
-    const elementOutofView = el => {
+    const elementOutofView = (el) => {
       const elementTop = el.getBoundingClientRect().top;
 
       return (
@@ -776,7 +1287,7 @@ export default {
       );
     };
 
-    const displayScrollElement = element => {
+    const displayScrollElement = (element) => {
       element.classList.add("scrolled");
     };
 
@@ -787,7 +1298,7 @@ export default {
     // };
 
     const handleScrollAnimation = () => {
-      scrollElements.forEach(el => {
+      scrollElements.forEach((el) => {
         if (elementInView(el, 1.25)) {
           displayScrollElement(el);
         } else if (elementOutofView(el)) {
@@ -811,19 +1322,19 @@ export default {
 
     //Navbar scroll w/ drop shadow
     let navBar = document.querySelector(".navBar");
-    window.onscroll = function() {
-      if(window.scrollY > 8) {
-        navBar.classList.add("nav-scrolled"); 
+    window.onscroll = function () {
+      if (window.scrollY > 8) {
+        navBar.classList.add("nav-scrolled");
       } else {
-        navBar.classList.remove("nav-scrolled")
+        navBar.classList.remove("nav-scrolled");
       }
-    }
+    };
 
     // select grid divs
     const gridItems = document.querySelectorAll(".grid-background > div");
 
     // loop over grid items and create a random duration + delay for each
-    gridItems.forEach(item => {
+    gridItems.forEach((item) => {
       // calculate random number for delay
       const delay = getRandomInt(0, 5);
 
@@ -840,7 +1351,7 @@ export default {
       max = Math.floor(max);
       return Math.floor(Math.random() * (max - min + 1)) + min;
     }
-  }
+  },
 };
 </script>
 
@@ -848,6 +1359,12 @@ export default {
 * {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
+}
+
+section:before {
+  height: 54px;
+  content: "";
+  display: block;
 }
 
 .navBar {
@@ -862,7 +1379,6 @@ export default {
   width: 100%;
   background-color: #fff;
 }
-
 
 .nav-logo:hover {
   transform: scale(1.1);
@@ -912,6 +1428,12 @@ export default {
   -webkit-animation: spin 12s linear infinite;
   -moz-animation: spin 12s linear infinite;
   animation: spin 12s linear infinite;
+}
+
+@media only screen and (min-width: 1231px) {
+  .innerLanding {
+    width: 1231px;
+  }
 }
 
 @media only screen and (max-width: 730px) {
